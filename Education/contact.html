@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="contact page icon.png">
+</head>
+<body>
+    <!--Menu Section-->
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4>SMARTSIDA</h4></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+
+    <section class="contact">
+        <div class="container contact_container">
+            <aside class="contact_aside">
+                <div class="aside_image">
+                    <img src="contact.svg" alt="">
+                </div>
+                <h2>Contact Us</h2>
+                <p>If you have any questions or need assistance, feel free to reach out to us. We are here to help</p>
+                <ul class="contact_details">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <h5>+92662292555</h5>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-envelope"></i>
+                        <h5>codeq209@gmail.com</h5>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Karachi , Pakistan</h5>
+                    </li>
+                </ul>
+                <ul class="contact_socials">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></a></i></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/sumbal-naz-601411323/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/CodeQueen-AI"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+        </aside>
+        <form action="https://formspree.io/f/xanyyjdj" method="POST" class="contact_form">
+            <div class="form_name">
+                <input type="text" name="First Name" placeholder="First Name" required>
+                <input type="text" name="Last Name" placeholder="Last Name" required>
+            </div>
+            <input type="email" name="Email Address" placeholder="Email" required>
+            <textarea name="Message" rows="7" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer_copyright">
+            <h2>⭐Designed By Sumbal Naz🖊️</h2>
+        </div>
+</footer> 
+<script src="script.js"></script>
+</body>
+</html>
